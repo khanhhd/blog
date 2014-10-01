@@ -5,9 +5,8 @@ class CreatePosts < ActiveRecord::Migration
       t.text :body
       t.timestamps
     end
-    Post.create(title: "My first post", body: "And this is the post's content.")
-    Post.create(title: "How to lasso your dog", 
-                body: "1. Tie a rope into a lasso. 2. Swing it over that unruly dog's torso. 3. Gently pull.")
-    Post.create(title: "Top 10 coffee shops in Austin", body: "1..10: Epoch Coffee, the 24/7 coffee shop.")
+    Post.create(title: "post dau tien", body: "Noi dung 1")
+    Post.create(title: "Post thu 2",    body: "Noi dung 2")
+    Post.create(title: "Post thu 3", body: "Noi dung 3")
   end
 end
